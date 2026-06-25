@@ -1,0 +1,1278 @@
+{
+  "run_at": "2026-06-25T07:33:29.447669+00:00",
+  "sources": {
+    "cards_squad": {
+      "rows_in": 2500,
+      "valid": 2457,
+      "rejected": 43,
+      "compliance_rate": 0.9828,
+      "rejections": [
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90009",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90009",
+            "card_holder_id": "CUST-1040",
+            "txn_amount": "-1968.16",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Namshi",
+            "card_last4": "0994",
+            "mcc": "5651",
+            "txn_epoch": "1780397361"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90019",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90019",
+            "card_holder_id": "CUST-1265",
+            "txn_amount": "-2385.07",
+            "txn_currency": "USD",
+            "txn_status": "BOGUS",
+            "merchant_name": "AliExpress",
+            "card_last4": "4945",
+            "mcc": "5999",
+            "txn_epoch": "1781675241"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90020",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3423.6'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90020",
+            "card_holder_id": "CUST-1011",
+            "txn_amount": "-3423.6",
+            "txn_currency": "AED",
+            "txn_status": "AUTH",
+            "merchant_name": "Amazon.ae",
+            "card_last4": "4521",
+            "mcc": "5999",
+            "txn_epoch": "1781101581"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90171",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-489.21'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90171",
+            "card_holder_id": "CUST-1274",
+            "txn_amount": "-489.21",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "ADNOC Station",
+            "card_last4": "5463",
+            "mcc": "5541",
+            "txn_epoch": "1782244581"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90181",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90181",
+            "card_holder_id": "CUST-1049",
+            "txn_amount": "-3283.85",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Talabat",
+            "card_last4": "2796",
+            "mcc": "5814",
+            "txn_epoch": "1781919441"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90187",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-33.86'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90187",
+            "card_holder_id": "CUST-1045",
+            "txn_amount": "-33.86",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "4648",
+            "mcc": "5411",
+            "txn_epoch": "1780133241"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90191",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3946.48'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90191",
+            "card_holder_id": "CUST-1048",
+            "txn_amount": "-3946.48",
+            "txn_currency": "AED",
+            "txn_status": "REVERSED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "8842",
+            "mcc": "5411",
+            "txn_epoch": "1782296481"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90375",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90375",
+            "card_holder_id": "CUST-1244",
+            "txn_amount": "-691.08",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "6637",
+            "mcc": "5411",
+            "txn_epoch": "1781528061"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90460",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90460",
+            "card_holder_id": "CUST-1183",
+            "txn_amount": "-2723.81",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Talabat",
+            "card_last4": "4967",
+            "mcc": "5814",
+            "txn_epoch": "1782062841"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90470",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3520.99'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90470",
+            "card_holder_id": "CUST-1012",
+            "txn_amount": "-3520.99",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "6943",
+            "mcc": "5411",
+            "txn_epoch": "1779896301"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90529",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3299.21'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90529",
+            "card_holder_id": "CUST-1126",
+            "txn_amount": "-3299.21",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "8043",
+            "mcc": "5411",
+            "txn_epoch": "1780511961"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90555",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1532.57'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90555",
+            "card_holder_id": "CUST-1119",
+            "txn_amount": "-1532.57",
+            "txn_currency": "AED",
+            "txn_status": "DECLINED",
+            "merchant_name": "ADNOC Station",
+            "card_last4": "0217",
+            "mcc": "5541",
+            "txn_epoch": "1780431621"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90597",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3878.54'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90597",
+            "card_holder_id": "CUST-1166",
+            "txn_amount": "-3878.54",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "9941",
+            "mcc": "5411",
+            "txn_epoch": "1781103321"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90633",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-496.57'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90633",
+            "card_holder_id": "CUST-1065",
+            "txn_amount": "-496.57",
+            "txn_currency": "AED",
+            "txn_status": "AUTH",
+            "merchant_name": "Deliveroo UAE",
+            "card_last4": "2641",
+            "mcc": "5814",
+            "txn_epoch": "1781924241"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90701",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90701",
+            "card_holder_id": "CUST-1166",
+            "txn_amount": "-3889.01",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "IKEA UAE",
+            "card_last4": "8999",
+            "mcc": "5712",
+            "txn_epoch": "1782232521"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90729",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1452.78'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90729",
+            "card_holder_id": "CUST-1242",
+            "txn_amount": "-1452.78",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "0976",
+            "mcc": "5411",
+            "txn_epoch": "1779809301"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90737",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3793.23'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90737",
+            "card_holder_id": "CUST-1232",
+            "txn_amount": "-3793.23",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Namshi",
+            "card_last4": "9372",
+            "mcc": "5651",
+            "txn_epoch": "1780327881"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90857",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1338.29'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-90857",
+            "card_holder_id": "CUST-1265",
+            "txn_amount": "-1338.29",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Sharaf DG",
+            "card_last4": "7935",
+            "mcc": "5732",
+            "txn_epoch": "1781512521"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-90885",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-90885",
+            "card_holder_id": "CUST-1126",
+            "txn_amount": "-2081.69",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "7761",
+            "mcc": "5411",
+            "txn_epoch": "1782055461"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91047",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3644.61'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91047",
+            "card_holder_id": "CUST-1129",
+            "txn_amount": "-3644.61",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "9941",
+            "mcc": "5411",
+            "txn_epoch": "1780816641"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91081",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1885.85'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91081",
+            "card_holder_id": "CUST-1201",
+            "txn_amount": "-1885.85",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "6165",
+            "mcc": "5411",
+            "txn_epoch": "1781789361"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91171",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3874.88'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91171",
+            "card_holder_id": "CUST-1181",
+            "txn_amount": "-3874.88",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "7485",
+            "mcc": "5411",
+            "txn_epoch": "1781142441"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91324",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-91324",
+            "card_holder_id": "CUST-1179",
+            "txn_amount": "-3687.75",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Talabat",
+            "card_last4": "0924",
+            "mcc": "5814",
+            "txn_epoch": "1780167201"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91347",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-91347",
+            "card_holder_id": "CUST-1046",
+            "txn_amount": "-1329.38",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Carrefour Dubai",
+            "card_last4": "5844",
+            "mcc": "5411",
+            "txn_epoch": "1780455681"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91385",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3621.92'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91385",
+            "card_holder_id": "CUST-1077",
+            "txn_amount": "-3621.92",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Namshi",
+            "card_last4": "3555",
+            "mcc": "5651",
+            "txn_epoch": "1781848641"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91435",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1823.7'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91435",
+            "card_holder_id": "CUST-1296",
+            "txn_amount": "-1823.7",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Amazon.ae",
+            "card_last4": "4424",
+            "mcc": "5999",
+            "txn_epoch": "1781169921"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91480",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1281.52'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91480",
+            "card_holder_id": "CUST-1124",
+            "txn_amount": "-1281.52",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Noon.com",
+            "card_last4": "3091",
+            "mcc": "5942",
+            "txn_epoch": "1780965741"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91629",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-91629",
+            "card_holder_id": "CUST-1096",
+            "txn_amount": "-2308.88",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Talabat",
+            "card_last4": "3897",
+            "mcc": "5814",
+            "txn_epoch": "1782333321"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91636",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-91636",
+            "card_holder_id": "CUST-1007",
+            "txn_amount": "-3320.73",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "5592",
+            "mcc": "5411",
+            "txn_epoch": "1781413821"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91762",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1739.82'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91762",
+            "card_holder_id": "CUST-1200",
+            "txn_amount": "-1739.82",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Apple Store UAE",
+            "card_last4": "1025",
+            "mcc": "5732",
+            "txn_epoch": "1780076781"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91775",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-2713.74'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91775",
+            "card_holder_id": "CUST-1040",
+            "txn_amount": "-2713.74",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Noon.com",
+            "card_last4": "6223",
+            "mcc": "5942",
+            "txn_epoch": "1780631421"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91783",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3513.34'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91783",
+            "card_holder_id": "CUST-1274",
+            "txn_amount": "-3513.34",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "3168",
+            "mcc": "5411",
+            "txn_epoch": "1780792761"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91792",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-91792",
+            "card_holder_id": "CUST-1135",
+            "txn_amount": "-3748.55",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "ADNOC Station",
+            "card_last4": "2463",
+            "mcc": "5541",
+            "txn_epoch": "1780614381"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-91819",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-3093.15'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-91819",
+            "card_holder_id": "CUST-1147",
+            "txn_amount": "-3093.15",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "ADNOC Station",
+            "card_last4": "0124",
+            "mcc": "5541",
+            "txn_epoch": "1780155321"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92017",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92017",
+            "card_holder_id": "CUST-1194",
+            "txn_amount": "-1847.93",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Careem",
+            "card_last4": "0488",
+            "mcc": "4121",
+            "txn_epoch": "1782314841"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92047",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-2530.31'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-92047",
+            "card_holder_id": "CUST-1112",
+            "txn_amount": "-2530.31",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Lulu Hypermarket",
+            "card_last4": "6717",
+            "mcc": "5411",
+            "txn_epoch": "1781218701"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92052",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92052",
+            "card_holder_id": "CUST-1030",
+            "txn_amount": "-3772.17",
+            "txn_currency": "USD",
+            "txn_status": "BOGUS",
+            "merchant_name": "AliExpress",
+            "card_last4": "9410",
+            "mcc": "5999",
+            "txn_epoch": "1781988921"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92090",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92090",
+            "card_holder_id": "CUST-1280",
+            "txn_amount": "-3771.9",
+            "txn_currency": "USD",
+            "txn_status": "BOGUS",
+            "merchant_name": "Steam",
+            "card_last4": "8957",
+            "mcc": "5816",
+            "txn_epoch": "1782278961"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92094",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92094",
+            "card_holder_id": "CUST-1080",
+            "txn_amount": "-3036.26",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Careem",
+            "card_last4": "0131",
+            "mcc": "4121",
+            "txn_epoch": "1781633361"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92100",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-2225.36'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "txn_id": "CARD-92100",
+            "card_holder_id": "CUST-1211",
+            "txn_amount": "-2225.36",
+            "txn_currency": "AED",
+            "txn_status": "SETTLED",
+            "merchant_name": "Apple Store UAE",
+            "card_last4": "0228",
+            "mcc": "5732",
+            "txn_epoch": "1780214181"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92212",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92212",
+            "card_holder_id": "CUST-1287",
+            "txn_amount": "-1686.36",
+            "txn_currency": "EUR",
+            "txn_status": "BOGUS",
+            "merchant_name": "Booking.com",
+            "card_last4": "5016",
+            "mcc": "4722",
+            "txn_epoch": "1780077321"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92227",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92227",
+            "card_holder_id": "CUST-1087",
+            "txn_amount": "-2799.93",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "Namshi",
+            "card_last4": "0782",
+            "mcc": "5651",
+            "txn_epoch": "1779883161"
+          }
+        },
+        {
+          "source_system": "cards_squad",
+          "source_event_id": "CARD-92475",
+          "reason": "KeyError: 'BOGUS'",
+          "raw": {
+            "txn_id": "CARD-92475",
+            "card_holder_id": "CUST-1062",
+            "txn_amount": "-3997.09",
+            "txn_currency": "AED",
+            "txn_status": "BOGUS",
+            "merchant_name": "IKEA UAE",
+            "card_last4": "6655",
+            "mcc": "5712",
+            "txn_epoch": "1782083001"
+          }
+        }
+      ]
+    },
+    "transfers_squad": {
+      "rows_in": 1250,
+      "valid": 1233,
+      "rejected": 17,
+      "compliance_rate": 0.9864,
+      "rejections": [
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50090",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50090",
+            "sender_id": "CUST-1070",
+            "receiver_id": "EXT-IBAN-950",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "IBAN",
+            "purpose_code": "SPLIT_BILL",
+            "created_at": "2026-06-21 12:05:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50175",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50175",
+            "sender_id": "CUST-1198",
+            "receiver_id": "CUST-1024",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "FAMILY_SUPPORT",
+            "created_at": "2026-06-16 03:46:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50193",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50193",
+            "sender_id": "CUST-1214",
+            "receiver_id": "CUST-1023",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "P2P",
+            "purpose_code": "PROPERTY",
+            "created_at": "2026-06-01 03:02:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50311",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50311",
+            "sender_id": "CUST-1018",
+            "receiver_id": "EXT-IBAN-955",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "IBAN",
+            "purpose_code": "GIFT",
+            "created_at": "2026-06-06 22:43:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50366",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50366",
+            "sender_id": "CUST-1208",
+            "receiver_id": "CUST-1139",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "SPLIT_BILL",
+            "created_at": "2026-05-30 08:50:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50370",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50370",
+            "sender_id": "CUST-1280",
+            "receiver_id": "CUST-1274",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "P2P",
+            "purpose_code": "GIFT",
+            "created_at": "2026-06-07 21:49:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50436",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50436",
+            "sender_id": "CUST-1090",
+            "receiver_id": "EXT-IBAN-789",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "IBAN",
+            "purpose_code": "RENT",
+            "created_at": "2026-06-03 20:49:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50519",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50519",
+            "sender_id": "CUST-1180",
+            "receiver_id": "CUST-1071",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "P2P",
+            "purpose_code": "SALARY",
+            "created_at": "2026-06-22 00:38:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50542",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50542",
+            "sender_id": "CUST-1165",
+            "receiver_id": "EXT-IBAN-385",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "IBAN",
+            "purpose_code": "SPLIT_BILL",
+            "created_at": "2026-06-19 21:49:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50574",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50574",
+            "sender_id": "CUST-1027",
+            "receiver_id": "EXT-IBAN-886",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "INITIATED",
+            "transfer_type": "IBAN",
+            "purpose_code": "FAMILY_SUPPORT",
+            "created_at": "2026-06-03 18:30:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50636",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50636",
+            "sender_id": "CUST-1129",
+            "receiver_id": "CUST-1200",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "SALARY",
+            "created_at": "2026-05-31 08:45:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50787",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50787",
+            "sender_id": "CUST-1114",
+            "receiver_id": "EXT-IBAN-117",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "IBAN",
+            "purpose_code": "SPLIT_BILL",
+            "created_at": "2026-05-30 02:56:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50842",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-50842",
+            "sender_id": "CUST-1181",
+            "receiver_id": "EXT-IBAN-251",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "IBAN",
+            "purpose_code": "GIFT",
+            "created_at": "2026-06-03 20:18:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50898",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50898",
+            "sender_id": "CUST-1297",
+            "receiver_id": "CUST-1209",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "PROPERTY",
+            "created_at": "2026-06-04 03:35:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-50997",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-50997",
+            "sender_id": "CUST-1116",
+            "receiver_id": "CUST-1274",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "SALARY",
+            "created_at": "2026-06-03 00:44:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-51173",
+          "reason": "KeyError: 'WEIRD'",
+          "raw": {
+            "transfer_reference": "TRF-51173",
+            "sender_id": "CUST-1173",
+            "receiver_id": "CUST-1085",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "WEIRD",
+            "transfer_type": "P2P",
+            "purpose_code": "PROPERTY",
+            "created_at": "2026-06-19 03:25:21"
+          }
+        },
+        {
+          "source_system": "transfers_squad",
+          "source_event_id": "TRF-51174",
+          "reason": "ValidationError: 1 validation error for PaymentEvent\namount\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=Decimal('-1'), input_type=Decimal]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+          "raw": {
+            "transfer_reference": "TRF-51174",
+            "sender_id": "CUST-1094",
+            "receiver_id": "CUST-1035",
+            "value": "-1",
+            "ccy": "AED",
+            "state": "SUCCESS",
+            "transfer_type": "P2P",
+            "purpose_code": "GIFT",
+            "created_at": "2026-06-01 23:56:21"
+          }
+        }
+      ]
+    },
+    "bill_payments_squad": {
+      "rows_in": 1250,
+      "valid": 1232,
+      "rejected": 18,
+      "compliance_rate": 0.9856,
+      "rejections": [
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70003",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70003",
+            "user": "CUST-1199",
+            "paid_amount": "907.0",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ADDC",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "12/06/2026 18:51"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70032",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70032",
+            "user": "CUST-1084",
+            "paid_amount": "221.78",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "Empower",
+            "biller_category": "UTILITIES",
+            "channel": "APP",
+            "timestamp": "31/05/2026 18:21"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70049",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70049",
+            "user": "CUST-1062",
+            "paid_amount": "2841.51",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "DU",
+            "biller_category": "TELECOM",
+            "channel": "APP",
+            "timestamp": "03/06/2026 15:39"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70353",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70353",
+            "user": "CUST-1216",
+            "paid_amount": "62.33",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ADDC",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "28/05/2026 06:34"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70373",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70373",
+            "user": "CUST-1065",
+            "paid_amount": "2409.64",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "Empower",
+            "biller_category": "UTILITIES",
+            "channel": "APP",
+            "timestamp": "11/06/2026 13:51"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70396",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70396",
+            "user": "CUST-1178",
+            "paid_amount": "1263.19",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ETISALAT",
+            "biller_category": "TELECOM",
+            "channel": "APP",
+            "timestamp": "25/06/2026 05:31"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70462",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70462",
+            "user": "CUST-1288",
+            "paid_amount": "1843.44",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ETISALAT",
+            "biller_category": "TELECOM",
+            "channel": "WEB",
+            "timestamp": "28/05/2026 06:19"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70560",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70560",
+            "user": "CUST-1297",
+            "paid_amount": "756.26",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ETISALAT",
+            "biller_category": "TELECOM",
+            "channel": "WEB",
+            "timestamp": "12/06/2026 10:36"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70567",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70567",
+            "user": "CUST-1123",
+            "paid_amount": "1806.26",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "SALIK",
+            "biller_category": "TOLL",
+            "channel": "APP",
+            "timestamp": "24/06/2026 21:04"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70648",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70648",
+            "user": "CUST-1266",
+            "paid_amount": "2558.0",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "DEWA",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "28/05/2026 18:38"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70867",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70867",
+            "user": "CUST-1144",
+            "paid_amount": "1986.49",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "Empower",
+            "biller_category": "UTILITIES",
+            "channel": "APP",
+            "timestamp": "16/06/2026 02:07"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70910",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70910",
+            "user": "CUST-1145",
+            "paid_amount": "1487.46",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ADDC",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "20/06/2026 11:35"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-70955",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-70955",
+            "user": "CUST-1291",
+            "paid_amount": "210.2",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "SEWA",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "13/06/2026 13:18"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-71018",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-71018",
+            "user": "CUST-1182",
+            "paid_amount": "979.29",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ETISALAT",
+            "biller_category": "TELECOM",
+            "channel": "APP",
+            "timestamp": "14/06/2026 13:06"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-71030",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-71030",
+            "user": "CUST-1248",
+            "paid_amount": "1725.26",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "ETISALAT",
+            "biller_category": "TELECOM",
+            "channel": "APP",
+            "timestamp": "29/05/2026 14:27"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-71050",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-71050",
+            "user": "CUST-1006",
+            "paid_amount": "139.8",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "DEWA",
+            "biller_category": "UTILITIES",
+            "channel": "WEB",
+            "timestamp": "15/06/2026 10:02"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-71205",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-71205",
+            "user": "CUST-1164",
+            "paid_amount": "2764.97",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "DEWA",
+            "biller_category": "UTILITIES",
+            "channel": "APP",
+            "timestamp": "04/06/2026 13:20"
+          }
+        },
+        {
+          "source_system": "bill_payments_squad",
+          "source_event_id": "BILL-71243",
+          "reason": "KeyError: '9'",
+          "raw": {
+            "id": "BILL-71243",
+            "user": "CUST-1204",
+            "paid_amount": "2563.49",
+            "currency_code": "AED",
+            "payment_status": "9",
+            "biller_id": "RTA_FINES",
+            "biller_category": "GOVERNMENT",
+            "channel": "APP",
+            "timestamp": "23/06/2026 15:48"
+          }
+        }
+      ]
+    }
+  },
+  "total_events": 4922
+}

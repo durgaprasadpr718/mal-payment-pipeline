@@ -1,0 +1,6 @@
+pydantic>=2.0
+duckdb>=0.10
+pyarrow>=14.0
+pandas>=2.0
+streamlit>=1.30
+plotly>=5.18
